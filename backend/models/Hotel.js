@@ -46,7 +46,7 @@ const HotelSchema = new mongoose.Schema({
     },
     featured:{                   //basically in our React application we are gonna show some featured hotels
         type: Boolean,
-        default:false      //The default: false part indicates that if a new document is created and no value is provided for the isFeatured field, its default value will be false
+        default:false     //The default: false part indicates that if a new document is created and no value is provided for the isFeatured field, its default value will be false
     },
 
 });
